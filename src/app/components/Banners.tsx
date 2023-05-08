@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 
 const Banners = ({banner}:any) => {
@@ -13,7 +14,7 @@ const Banners = ({banner}:any) => {
         </div>
         <div className="right md:flex-1 relative flex flex-col items-center">
             <img src={banner.image} alt=""/>
-            <div className='shadow w-[50%] h-[20%] blur-xl bg-slate-900 absolute bottom-[-40%] left-[50%] translate-x-[-50%] rounded-[50%]'>
+            <div className='shadow w-[50%] h-[20%] blur-xl bg-slate-900 absolute bottom-[-30%] left-[50%] translate-x-[-50%] rounded-[50%]'>
             </div>
         </div>
     </div>

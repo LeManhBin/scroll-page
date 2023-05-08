@@ -20,6 +20,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background: linear-gradient(115.68deg, #AAAAAA -15.64%, #242424 108.26%);
+}
+
 li {
   cursor: pointer;
   font-weight: 500;
